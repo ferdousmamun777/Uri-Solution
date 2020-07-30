@@ -1,0 +1,6 @@
+sum=1
+b=2
+for i in range(3, 40, 2):
+    sum=sum+(i/b)
+    b=b*2
+print("%0.2lf" %sum)
