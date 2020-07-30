@@ -1,0 +1,5 @@
+n=int(input())
+
+dis=n*2
+
+print("%d minutos" %dis)
