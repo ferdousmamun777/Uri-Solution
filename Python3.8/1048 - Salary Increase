@@ -1,0 +1,28 @@
+s=float(input())
+
+s1=(s*15)/100
+s2=(s*12)/100
+s3=(s*10)/100
+s4=(s*7)/100
+s5=(s*4)/100
+
+if s>=0 and s<=400.00:
+    print("Novo salario: %0.2lf" %(s+s1))
+    print("Reajuste ganho: %0.2lf" %s1)
+    print("Em percentual: 15 %")
+elif s>=400.01 and s<=800.00:
+    print("Novo salario: %0.2lf" %(s+s2))
+    print("Reajuste ganho: %0.2lf" %s2)
+    print("Em percentual: 12 %")
+elif s>=800.01 and s<=1200.00:
+    print("Novo salario: %0.2lf" %(s+s3))
+    print("Reajuste ganho: %0.2lf" %s3)
+    print("Em percentual: 10 %")
+elif s>=1200.01 and s<=2000.00:
+    print("Novo salario: %0.2lf" %(s+s4))
+    print("Reajuste ganho: %0.2lf" %s4)
+    print("Em percentual: 7 %")
+elif s>=2000.01:
+    print("Novo salario: %0.2lf" %(s+s5))
+    print("Reajuste ganho: %0.2lf" %s5)
+    print("Em percentual: 4 %")
