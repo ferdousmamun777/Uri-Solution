@@ -1,0 +1,7 @@
+n=int(input())
+
+for i in range(1, n+1):
+    line=input().split()
+    a, b =line
+    a, b =int(a), int(b)
+    print("%d" %(a+b))
