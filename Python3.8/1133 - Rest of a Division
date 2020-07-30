@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+
+list=[a, b]
+mini=min(list)
+maxi=max(list)
+
+for i in range(mini+1, maxi):
+    if i%5==2 or i%5==3:
+        print(i)
