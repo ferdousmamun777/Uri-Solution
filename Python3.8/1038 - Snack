@@ -1,0 +1,18 @@
+line=input().split(" ")
+
+n, m=line
+n=float(n)
+m=float(m)
+
+if n==1:
+    price=(m*4.00)
+elif n==2:
+    price=(m*4.50)
+elif n==3:
+    price=(m*5.00)
+elif n==4:
+    price=(m*2.00)
+else:
+    price=(m*1.50)
+
+print("Total: R$ %0.2lf" %price)
