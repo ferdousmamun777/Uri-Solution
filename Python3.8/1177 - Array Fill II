@@ -1,0 +1,9 @@
+n=int(input())
+
+z=0
+
+for j in range(1000):
+    print("N[%d] = %d" % (j, z))
+    z=z+1
+    if z==n:
+        z=0
