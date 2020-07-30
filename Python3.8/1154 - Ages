@@ -1,0 +1,11 @@
+list = []
+while True:
+    n = int(input())
+    if n < 0:
+        break
+    else:
+        list.append(n)
+
+
+avg = sum(list) / len(list)
+print("%0.2lf" %avg)
