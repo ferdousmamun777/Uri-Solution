@@ -1,0 +1,8 @@
+list=[]
+for i in range(1, 101):
+    n=float(input())
+    list.append(n)
+
+for i in range(len(list)):
+    if list[i]<=10:
+        print("A[%d] = %0.1f" %(i, list[i]))
