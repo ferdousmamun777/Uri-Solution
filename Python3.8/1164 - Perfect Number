@@ -1,0 +1,15 @@
+n=int(input())
+
+for i in range(1, n+1):
+    a=int(input())
+    i=1
+    sum = 0
+    while i<a:
+        if a%i==0:
+            sum=sum+i
+
+        i=i+1
+    if sum==a:
+        print("%d eh perfeito" %a)
+    else:
+        print("%d nao eh perfeito" %a)
