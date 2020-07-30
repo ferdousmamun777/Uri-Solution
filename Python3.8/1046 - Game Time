@@ -1,0 +1,15 @@
+line=input().split(" ")
+
+n, m=line
+n=int(n)
+m=int(m)
+
+dt=(m-n)
+
+if dt<0:
+    dt=24+dt
+
+if n==m:
+    print("O JOGO DUROU 24 HORA(S)")
+else:
+    print("O JOGO DUROU %d HORA(S)" %dt)
