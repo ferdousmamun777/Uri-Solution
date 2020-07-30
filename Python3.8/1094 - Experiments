@@ -1,0 +1,26 @@
+n=int(input())
+c=0
+r=0
+s=0
+sum=0
+
+for i in range(1, n+1):
+    n=input().split()
+    a, b=n
+    a=int(a)
+    if b=="C":
+        c=c+a
+    if b=="R":
+        r=r+a
+    if b=="S":
+        s=s+a
+    sum=sum+a
+
+
+print("Total: %d cobaias" %sum)
+print("Total de coelhos: %d" %c)
+print("Total de ratos: %d" %r)
+print("Total de sapos: %d" %s)
+print("Percentual de coelhos: %0.2f %%" %((c*100)/sum))
+print("Percentual de ratos: %0.2f %%" %((r*100)/sum))
+print("Percentual de sapos: %0.2f %%" %((s*100)/sum))
