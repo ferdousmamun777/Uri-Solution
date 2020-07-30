@@ -1,0 +1,9 @@
+l1=input().split(" ")
+l2=input().split(" ")
+
+a1, a2, a3=l1
+b1, b2, b3=l2
+
+total=((int(a2)*float(a3))+(int(b2)*float(b3)))
+
+print("VALOR A PAGAR: R$ %0.2f" %total)
