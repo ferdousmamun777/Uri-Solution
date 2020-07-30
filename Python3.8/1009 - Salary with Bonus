@@ -1,0 +1,9 @@
+name=input()
+salary=float(input())
+sales=float(input())
+
+percentage=float((sales*15)/100)
+
+total=float(salary+percentage)
+
+print("TOTAL = R$ %0.2f" %total)
