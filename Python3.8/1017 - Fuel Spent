@@ -1,0 +1,6 @@
+n1=float(input())
+n2=float(input())
+
+l=(n1*n2)/12
+
+print("%0.3lf" %l)
