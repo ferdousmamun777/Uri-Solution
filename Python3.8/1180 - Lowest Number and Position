@@ -1,0 +1,18 @@
+n=int(input())
+list=[]
+a=input().split()
+
+for i in a:
+    i=int(i)
+    list.append(i)
+
+mn=list[0]
+pos=0
+
+for i in range(len(list)):
+    if mn>list[i]:
+        mn=list[i]
+        pos=i
+
+print("Menor valor: %d" %mn)
+print("Posicao: %d" %pos)
