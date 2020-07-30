@@ -1,0 +1,7 @@
+num=input().split()
+
+a, b, c=num
+
+n=max(int(a), int(b), int(c))
+
+print("%d eh o maior" %n)
