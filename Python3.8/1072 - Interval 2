@@ -1,0 +1,12 @@
+n=int(input())
+cin=cout=0
+
+for i in range(1, n+1):
+    m=int(input())
+    if m>=10 and m<=20:
+        cin=cin+1
+    else:
+        cout=cout+1
+
+print("%d in" %cin)
+print("%d out" %cout)
