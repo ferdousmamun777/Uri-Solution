@@ -1,0 +1,10 @@
+n=int(input())
+
+s="Ho "
+a=s*(n-1)
+
+b="Ho!"
+if n==0:
+    print()
+else:
+    print(a+b)
