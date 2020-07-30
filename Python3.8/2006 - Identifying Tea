@@ -1,0 +1,14 @@
+n=int(input())
+line=input().split()
+
+count=0
+a, b, c, d, e=line
+a, b, c, d, e=int(a), int(b), int(c), int(d), int(e)
+
+list=[a, b, c, d, e]
+
+for i in list:
+    if n==i:
+        count=count+1
+
+print(count)
