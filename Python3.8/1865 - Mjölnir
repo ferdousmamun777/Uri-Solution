@@ -1,0 +1,10 @@
+a=int(input())
+
+for i in range(a):
+    n=input().split()
+    a, b=n
+
+    if a=="Thor":
+        print("Y")
+    else:
+        print("N")
