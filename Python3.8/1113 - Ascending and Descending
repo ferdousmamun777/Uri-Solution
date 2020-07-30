@@ -1,0 +1,13 @@
+while True:
+    line = input().split(" ")
+    a, b = line
+    a = int(a)
+    b = int(b)
+    if a==b:
+        break
+    else:
+        if a>b:
+            print("Decrescente")
+        else:
+            print("Crescente")
+    
