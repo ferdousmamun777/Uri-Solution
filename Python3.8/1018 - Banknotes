@@ -1,0 +1,31 @@
+n=int(input())
+
+a=n//100
+a1=n%100
+
+b=a1//50
+b1=a1%50
+
+c=b1//20
+c1=b1%20
+
+d=c1//10
+d1=c1%10
+
+e=d1//5
+e1=d1%5
+
+f=e1//2
+f1=e1%2
+
+g=f1//1
+g1=f1%1
+
+print("%d" %n)
+print("%d nota(s) de R$ 100,00" %a)
+print("%d nota(s) de R$ 50,00" %b)
+print("%d nota(s) de R$ 20,00" %c)
+print("%d nota(s) de R$ 10,00" %d)
+print("%d nota(s) de R$ 5,00" %e)
+print("%d nota(s) de R$ 2,00" %f)
+print("%d nota(s) de R$ 1,00" %g)
