@@ -1,0 +1,18 @@
+n=input().split()
+a, b, c=n
+a, b, c=int(a), int(b), int(c)
+
+if a-b==0:
+    print("S")
+elif a-c==0:
+    print("S")
+elif b-c==0:
+    print("S")
+elif (a+b)-c==0:
+    print("S")
+elif (a+c)-b==0:
+    print("S")
+elif (b+c)-a==0:
+    print("S")
+else:
+    print("N")
