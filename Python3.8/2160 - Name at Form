@@ -1,0 +1,8 @@
+s=input()
+
+l=len(s)
+
+if l<=80:
+    print("YES")
+if l>80:
+    print("NO")
