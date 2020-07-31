@@ -1,0 +1,7 @@
+a=int(input())
+list=[]
+for i in range(a):
+    n=input()
+    a=len(n)/100
+    print("%0.2f" %a)
+
