@@ -1,0 +1,6 @@
+n=input().split()
+
+a, b=n
+a, b=int(a), int(b)
+
+print("%0.2f" %(a/b))
