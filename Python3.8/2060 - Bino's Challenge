@@ -1,0 +1,27 @@
+n=int(input())
+a=0
+b=0
+c=0
+d=0
+list=[]
+line=input().split()
+list.append(line)
+list1=[]
+
+for i in range(len(list[0])):
+    list1.append(int(list[0][i]))
+
+for i in range(len(list1)):
+    if list1[i]%2==0:
+        a=a+1
+    if list1[i]%3==0:
+        b=b+1
+    if list1[i]%4==0:
+        c=c+1
+    if list1[i]%5==0:
+        d=d+1
+
+print("%d Multiplo(s) de 2" %a)
+print("%d Multiplo(s) de 3" %b)
+print("%d Multiplo(s) de 4" %c)
+print("%d Multiplo(s) de 5" %d)
