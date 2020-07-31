@@ -1,0 +1,8 @@
+while True:
+    line=input().split()
+    a, b=line
+    a, b=int(a), int(b)
+    
+    if a==0 and b==0:
+        break
+    print("%d" %(a*b))
