@@ -1,0 +1,6 @@
+s="a"
+
+n=int(input())
+st=s*n
+
+print("Feliz nat"+ st+"l!")
